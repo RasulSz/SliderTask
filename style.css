@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.monitor{
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.wrapper{
+    margin-left: 400px;
+    margin-top: 5px;
+    max-width: 2000px;
+    position: relative;
+    display: flex;
+}
+
+.myimage{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.myimage img{
+    
+    width: 750px;
+    height: 900px;
+    
+    margin-left: 1000px;
+}
+
+.slider img{
+    height: 440px;
+    object-fit: cover;
+    width: calc(100%/4);
+    margin-left: 15px;
+}
+
+body{
+    
+    align-items: center;
+    justify-content: center;
+    height: 1200px;
+    background-color: gray;
+}
+
+.slider img:first-child{
+    margin-left: 0px;
+}
